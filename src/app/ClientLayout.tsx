@@ -9,7 +9,7 @@ export default function ClientLayout({
 }: {
   children: React.ReactNode;
 }) {
-  var langCookie = getCookie("language");
+  let langCookie = getCookie("language");
 
   //Language Zone - Navigation Bar
   var [li, sli] = useState("");

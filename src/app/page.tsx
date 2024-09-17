@@ -292,7 +292,7 @@ export default function Home() {
 
   useEffect(() => {
     languageProcessor();
-  }, []);
+  });
 
   return (
     <>

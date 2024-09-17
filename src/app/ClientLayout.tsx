@@ -190,7 +190,7 @@ export default function ClientLayout({
   useEffect(() => {
     languageChecker();
     languageProcessor();
-  }, []);
+  });
 
   return (
     <>

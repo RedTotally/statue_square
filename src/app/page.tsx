@@ -1,68 +1,68 @@
 "use client";
 
 import Link from "next/link";
-import { getCookie } from "cookies-next";
+import { getCookie, setCookie } from "cookies-next";
 import { useEffect, useState } from "react";
 
 export default function Home() {
   const langCookie = getCookie("language");
 
   //Language Zone - Content
-  const [ht1_1, sht1_1] = useState("");
-  const [ht1_2, sht1_2] = useState("");
-  const [hb1, shb1] = useState("");
+  var [ht1_1, sht1_1] = useState("");
+  var [ht1_2, sht1_2] = useState("");
+  var [hb1, shb1] = useState("");
 
-  const [ht2, sht2] = useState("");
-  const [heog, sheog] = useState("");
+  var [ht2, sht2] = useState("");
+  var [heog, sheog] = useState("");
 
-  const [ht3, sht3] = useState("");
-  const [hs, shs] = useState("");
+  var [ht3, sht3] = useState("");
+  var [hs, shs] = useState("");
 
-  const [haotw, shaotw] = useState("");
+  var [haotw, shaotw] = useState("");
 
-  const [tsbta, stsbta] = useState("");
-  const [tsbtat, stsbtat] = useState("");
+  var [tsbta, stsbta] = useState("");
+  var [tsbtat, stsbtat] = useState("");
 
-  const [toota, stoota] = useState("");
-  const [tootat, stootat] = useState("");
+  var [toota, stoota] = useState("");
+  var [tootat, stootat] = useState("");
 
-  const [ata, sata] = useState("");
-  const [atat, satat] = useState("");
+  var [ata, sata] = useState("");
+  var [atat, satat] = useState("");
 
-  const [lmata, slmata] = useState("");
+  var [lmata, slmata] = useState("");
 
-  const [ht4_1, sht4_1] = useState("");
-  const [ht4_2, sht4_2] = useState("");
-  const [ht4_3, sht4_3] = useState("");
+  var [ht4_1, sht4_1] = useState("");
+  var [ht4_2, sht4_2] = useState("");
+  var [ht4_3, sht4_3] = useState("");
 
-  const [mikd_1, smikd_1] = useState("");
-  const [mikd_2, smikd_2] = useState("");
+  var [mikd_1, smikd_1] = useState("");
+  var [mikd_2, smikd_2] = useState("");
 
-  const [ht5_1, sht5_1] = useState("");
-  const [ht5_2, sht5_2] = useState("");
+  var [ht5_1, sht5_1] = useState("");
+  var [ht5_2, sht5_2] = useState("");
 
-  const [nrd, snrd] = useState("");
+  var [nrd, snrd] = useState("");
 
-  const [futbk, sfutbk] = useState("");
-  const [futbkt, sfutbkt] = useState("");
+  var [futbk, sfutbk] = useState("");
+  var [futbkt, sfutbkt] = useState("");
 
-  const [ptae, sptae] = useState("");
-  const [ptaet, sptaet] = useState("");
+  var [ptae, sptae] = useState("");
+  var [ptaet, sptaet] = useState("");
 
-  const [sfbs, ssfbs] = useState("");
-  const [sfbst, ssfbst] = useState("");
+  var [sfbs, ssfbs] = useState("");
+  var [sfbst, ssfbst] = useState("");
   //--!
 
   //Language Zone - Art
 
-  const [a_1, sa_1] = useState("");
-  const [a_2, sa_2] = useState("");
-  const [a_3, sa_3] = useState("");
-  const [a_4, sa_4] = useState("");
+  var [a_1, sa_1] = useState("");
+  var [a_2, sa_2] = useState("");
+  var [a_3, sa_3] = useState("");
+  var [a_4, sa_4] = useState("");
 
-  const [by, sby] = useState("");
+  var [by, sby] = useState("");
 
-  const [d, sd] = useState("");
+  var [d, sd] = useState("");
 
   //--~
 
@@ -292,7 +292,7 @@ export default function Home() {
 
   useEffect(() => {
     languageProcessor();
-  });
+  }, []);
 
   return (
     <>

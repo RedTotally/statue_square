@@ -12,54 +12,54 @@ export default function ClientLayout({
   const langCookie = getCookie("language");
 
   //Language Zone - Navigation Bar
-  var [li, sli] = useState("");
-  var [r, sr] = useState("");
-  var [bas, sbas] = useState("");
-  var [q, sq] = useState("");
+  const [li, sli] = useState("");
+  const [r, sr] = useState("");
+  const [bas, sbas] = useState("");
+  const [q, sq] = useState("");
 
-  var [sfaa, ssfaa] = useState("");
-  var [s, ss] = useState("");
+  const [sfaa, ssfaa] = useState("");
+  const [s, ss] = useState("");
 
-  var [c, sc] = useState("");
+  const [c, sc] = useState("");
   //--!
 
   //Language Zone - Footer
-  var [ft, sft] = useState("");
+  const [ft, sft] = useState("");
 
-  var [l, sl] = useState("");
-  var [tos, stos] = useState("");
-  var [pp, spp] = useState("");
+  const [l, sl] = useState("");
+  const [tos, stos] = useState("");
+  const [pp, spp] = useState("");
 
-  var [jup, sjup] = useState("");
-  var [fli, sfli] = useState("");
-  var [fr, sfr] = useState("");
-  var [fbas, sfbas] = useState("");
+  const [jup, sjup] = useState("");
+  const [fli, sfli] = useState("");
+  const [fr, sfr] = useState("");
+  const [fbas, sfbas] = useState("");
 
-  var [yi, syi] = useState("");
-  var [yfa, syfa] = useState("");
-  var [ysc, sysc] = useState("");
+  const [yi, syi] = useState("");
+  const [yfa, syfa] = useState("");
+  const [ysc, sysc] = useState("");
 
-  var [m, sm] = useState("");
-  var [eog, seog] = useState("");
+  const [m, sm] = useState("");
+  const [eog, seog] = useState("");
   //--!
 
   //Language Zone - Categories
 
-  var [c1, sc1] = useState("");
-  var [c2, sc2] = useState("");
-  var [c3, sc3] = useState("");
-  var [c4, sc4] = useState("");
-  var [c5, sc5] = useState("");
+  const [c1, sc1] = useState("");
+  const [c2, sc2] = useState("");
+  const [c3, sc3] = useState("");
+  const [c4, sc4] = useState("");
+  const [c5, sc5] = useState("");
 
   //--!
 
-  var [menuStatus, setMenuStatus] = useState(false);
-  var [categoryStatus, setCategoryStatus] = useState(false);
+  const [menuStatus, setMenuStatus] = useState(false);
+  const [categoryStatus, setCategoryStatus] = useState(false);
 
   async function switchLanguage(lang: string) {
     try {
       setCookie("language", lang);
-      window.location.reload();
+
     } catch (e) {
       console.log("Error switching language.");
     }
@@ -180,7 +180,7 @@ export default function ClientLayout({
       if (!langCookie) {
         setCookie("language", "en"); // Deafult Language
         console.log("Cookie placed.");
-        window.location.reload();
+
       }
     } catch (e) {
       console.log("Error sorting out language.");
@@ -190,7 +190,7 @@ export default function ClientLayout({
   useEffect(() => {
     languageChecker();
     languageProcessor();
-  }, []);
+  });
 
   return (
     <>

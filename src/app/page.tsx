@@ -5,7 +5,7 @@ import { getCookie, setCookie } from "cookies-next";
 import { useEffect, useState } from "react";
 
 export default function Home() {
-  let langCookie = getCookie("language");
+  const langCookie = getCookie("language");
 
   //Language Zone - Content
   var [ht1_1, sht1_1] = useState("");

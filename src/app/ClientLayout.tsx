@@ -180,7 +180,7 @@ export default function ClientLayout({
       if (!langCookie) {
         setCookie("language", "en"); // Deafult Language
         console.log("Cookie placed.");
-
+window.location.reload();
       }
     } catch (e) {
       console.log("Error sorting out language.");

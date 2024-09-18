@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function Gallery() {
-  let langCookie = getCookie("language");
+  const langCookie = getCookie("language");
 
   const [filerOptionsVisibility, setFilterOptionsVisibility] = useState(false);
 

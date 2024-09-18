@@ -1,10 +1,10 @@
 "use client";
 
 import { getCookie } from "cookies-next";
-import { useEffect } from "react";
+import { useEffect} from "react";
 
 export default function Product() {
-  let langCookie = getCookie("language");
+  const langCookie = getCookie("language");
 
   //Language Zone - Content
 

@@ -4,7 +4,7 @@ import { getCookie } from "cookies-next";
 import { useEffect, useState } from "react";
 
 export default function Cart() {
-  let langCookie = getCookie("language");
+  const langCookie = getCookie("language");
 
   //Language Zone - Content
   const [yc, syc] = useState("");

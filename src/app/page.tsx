@@ -392,7 +392,7 @@ export default function Home() {
                   <p className="mt-2">
                     {by} <span>Sandio Cavorlan</span>
                   </p>
-                  <p>HK$8,900,73</p>
+                  <p>HK$8,900,732</p>
                 </div>
               </Link>
             </div>

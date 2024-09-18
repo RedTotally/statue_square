@@ -11,6 +11,7 @@
   "dependencies": {
     "cookies-next": "^4.2.1",
     "next": "14.2.11",
+    "next-frame": "^0.2.3",
     "react": "^18",
     "react-dom": "^18"
   },

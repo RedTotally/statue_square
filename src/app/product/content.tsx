@@ -1,7 +1,7 @@
 "use client";
 
 import { getCookie } from "cookies-next";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 export default function Product() {
   let langCookie = getCookie("language");

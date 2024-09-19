@@ -317,7 +317,7 @@ export default function Product() {
                   {ssva2}
                 </p>
                 <p className="text-xs underline cursor-pointer">{lmaovp}</p>
-                <p className="text-xs mt-5 lg:w-[50em]">{ai}</p>
+                <p className="text-xs mt-5 lg:w-[53em] xl:w-[60em]">{ai}</p>
               </div>
             </div>
           </div>

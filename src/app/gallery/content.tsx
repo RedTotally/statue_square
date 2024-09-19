@@ -300,7 +300,7 @@ export default function Gallery() {
             <div className="overflow-x-auto">
               <div className="grid grid-rows-4 lg:grid-rows-1 lg:grid-cols-4 gap-5 Gallery">
                 <Link
-                  href={"/product"}
+                  href={"/product/1"}
                   className="group cursor-pointer border-[.01em] hover:brightness-[90%] duration-300"
                 >
                   <div className="absolute flex items-center opacity-0 duration-300 group-hover:opacity-100 p-2">
@@ -329,7 +329,7 @@ export default function Gallery() {
                   </div>
                 </Link>
                 <Link
-                  href={"/product"}
+                  href={"/product/2"}
                   className="group cursor-pointer border-[.01em] hover:brightness-[90%] duration-300"
                 >
                   <div className="absolute flex items-center opacity-0 duration-300 group-hover:opacity-100 p-2">
@@ -358,7 +358,7 @@ export default function Gallery() {
                   </div>
                 </Link>
                 <Link
-                  href={"/product"}
+                  href={"/product/3"}
                   className="group cursor-pointer border-[.01em] hover:brightness-[90%] duration-300"
                 >
                   <div className="absolute flex items-center opacity-0 duration-300 group-hover:opacity-100 p-2">
@@ -387,7 +387,7 @@ export default function Gallery() {
                   </div>
                 </Link>
                 <Link
-                  href={"/product"}
+                  href={"/product/4"}
                   className="group cursor-pointer border-[.01em] hover:brightness-[90%] duration-300"
                 >
                   <div className="absolute flex items-center opacity-0 duration-300 group-hover:opacity-100 p-2">
@@ -421,7 +421,7 @@ export default function Gallery() {
             <div className="overflow-x-auto mt-5">
               <div className="grid grid-rows-4 lg:grid-rows-1 lg:grid-cols-4 gap-5 Gallery">
                 <Link
-                  href={"/product"}
+                  href={"/product/1"}
                   className="group cursor-pointer border-[.01em] hover:brightness-[90%] duration-300"
                 >
                   <div className="absolute flex items-center opacity-0 duration-300 group-hover:opacity-100 p-2">
@@ -450,7 +450,7 @@ export default function Gallery() {
                   </div>
                 </Link>
                 <Link
-                  href={"/product"}
+                  href={"/product/2"}
                   className="group cursor-pointer border-[.01em] hover:brightness-[90%] duration-300"
                 >
                   <div className="absolute flex items-center opacity-0 duration-300 group-hover:opacity-100 p-2">
@@ -479,7 +479,7 @@ export default function Gallery() {
                   </div>
                 </Link>
                 <Link
-                  href={"/product"}
+                  href={"/product/3"}
                   className="group cursor-pointer border-[.01em] hover:brightness-[90%] duration-300"
                 >
                   <div className="absolute flex items-center opacity-0 duration-300 group-hover:opacity-100 p-2">
@@ -508,7 +508,7 @@ export default function Gallery() {
                   </div>
                 </Link>
                 <Link
-                  href={"/product"}
+                  href={"/product/4"}
                   className="group cursor-pointer border-[.01em] hover:brightness-[90%] duration-300"
                 >
                   <div className="absolute flex items-center opacity-0 duration-300 group-hover:opacity-100 p-2">

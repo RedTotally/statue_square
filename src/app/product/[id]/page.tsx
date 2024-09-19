@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 export default function BecomeASellerPage(){
-    return(
+  return(
        <Product></Product>
     )
 }

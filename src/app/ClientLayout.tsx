@@ -206,7 +206,7 @@ window.location.reload();
           <img
             onClick={() => setMenuStatus(true)}
             className="lg:hidden cursor-pointer"
-            src="menu.svg"
+            src="/menu.svg"
           ></img>
         </div>
         <div>
@@ -389,7 +389,7 @@ window.location.reload();
         <div className="flex justify-center mt-20 mb-20">
           <div>
             <div className="flex justify-center">
-              <img className="w-[15em]" src="statue_square_logo.png"></img>
+              <img className="w-[15em]" src="/statue_square_logo.png"></img>
             </div>
             <p className="text-center text-xs">{ft}</p>
           </div>

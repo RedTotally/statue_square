@@ -331,7 +331,7 @@ export default function Home() {
             </div>
             <div className="grid grid-rows-4 lg:grid-rows-1 lg:grid-cols-4 gap-10 mt-5">
               <Link
-                href={"/product"}
+                href={"/product/1"}
                 className="cursor-pointer border-[.01em] hover:brightness-[90%] duration-300"
               >
                 <div
@@ -347,7 +347,7 @@ export default function Home() {
                 </div>
               </Link>
               <Link
-                href={"/product"}
+                href={"/product/2"}
                 className="cursor-pointer border-[.01em] hover:brightness-[90%] duration-300"
               >
                 <div
@@ -364,7 +364,7 @@ export default function Home() {
               </Link>
 
               <Link
-                href={"/product"}
+                href={"/product/3"}
                 className="cursor-pointer border-[.01em] hover:brightness-[90%] duration-300"
               >
                 <div
@@ -380,7 +380,7 @@ export default function Home() {
                 </div>
               </Link>
               <Link
-                href={"/product"}
+                href={"/product/4"}
                 className="cursor-pointer border-[.01em] hover:brightness-[90%] duration-300"
               >
                 <div
@@ -414,7 +414,7 @@ export default function Home() {
 
           <div className="lg:flex mt-20">
             <Link
-              href={"/product"}
+              href={"/product/4"}
               className="lg:w-[45%] border-[.1em] cursor-pointer hover:brightness-[90%] duration-300"
             >
               <img src="/art.jpg"></img>

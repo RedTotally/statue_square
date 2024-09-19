@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 import Product from "./content";
 import type { Metadata } from "next";
 

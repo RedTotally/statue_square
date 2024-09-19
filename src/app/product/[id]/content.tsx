@@ -296,13 +296,13 @@ export default function Product() {
           <p className="text-xs underline cursor-pointer">{lmaovp}</p>
 
           <p className="text-2xl mt-10">{tsbta}</p>
-          <p className="mt-5">{tsbtat}</p>
+          <p className="mt-5 text-gray-600">{tsbtat}</p>
 
           <p className="text-2xl mt-10">{toota}</p>
-          <p className="mt-5">{tootat}</p>
+          <p className="mt-5 text-gray-600">{tootat}</p>
 
           <p className="text-2xl mt-10">{dt}</p>
-          <p className="mt-5">{dtt}</p>
+          <p className="mt-5 text-gray-600">{dtt}</p>
 
           <div className="mt-20">
             <div className="lg:flex items-center">
@@ -317,7 +317,7 @@ export default function Product() {
                   {ssva2}
                 </p>
                 <p className="text-xs underline cursor-pointer">{lmaovp}</p>
-                <p className="text-xs mt-5 lg:w-[53em] xl:w-[60em]">{ai}</p>
+                <p className="text-xs mt-5 lg:w-[53em] xl:w-[60em] text-gray-600">{ai}</p>
               </div>
             </div>
           </div>
